@@ -1,0 +1,11 @@
+server:
+  port: 8989
+spring:
+  application:
+    name: spring-boot-hazelcast-cache
+  database:
+    datasource:
+      url: jdbc:h2:mem:userdb;MODE=LEGACY;DB_CLOSE_DELAY=-1
+      driverClassName: org.h2.Driver
+      username: sa
+      password:
